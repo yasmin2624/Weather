@@ -1,0 +1,245 @@
+body {
+  background-color: #1e202b;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.logo img {
+  width: 3.125rem;
+  margin-right: 0.625rem;
+}
+.site-header {
+  background-color: #1e202b;
+  padding: 10px 0;
+}
+.logo {
+  max-height: 50px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.site-title {
+  color: #00bcd4;
+  margin: 0;
+  font-size: 1.5rem;
+}
+.site-description {
+  font-size: 0.9rem;
+  color: #bfc1c8;
+}
+.nav-link {
+  color: #fff !important;
+}
+.nav-link.active {
+  color: #00bcd4 !important;
+}
+.navbar {
+  background-color: #1e202b;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #00bcd4 !important;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+.navbar-toggler {
+  border: none;
+  color: #fff;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-collapse {
+  background-color: #1e202b;
+  padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .nav-item {
+    margin: 10px 0;
+  }
+}
+.main-sec {
+  background-image: url(../imges/banner.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.search-box {
+  background-color: #2d303d;
+  border-radius: 30px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.search-box input {
+  background: transparent;
+  border: none;
+  color: #fff;
+  outline: none;
+  flex-grow: 1;
+}
+.search-box button {
+  background-color: #009ad8;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.weather-container {
+  background-color: #323544;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.weather-card {
+  background-color: #262936;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+.weather-card h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #ffffff;
+}
+.weather-card p {
+  margin: 0;
+  color: #bfc1c8;
+}
+.footer {
+  background-color: #262936;
+  color: #bfc1c8;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer input {
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  width: 300px;
+}
+.footer button {
+  background-color: #009ad8;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.icons a {
+  background-color: rgb(5, 26, 45);
+  color: #0465a5;
+  padding: 7px;
+  border-radius: 50%;
+}
+.icons :hover {
+  background-color: rgb(117, 172, 216);
+  color: #c9c9c9;
+}
+.contact-form input{
+ background-color: white;
+}
+
+@media screen and (min-width: 1121px) and (max-width: 1500px) {
+  .weather-card h2 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 765px) and (max-width: 1121px) {
+  .weather-card h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 764px) {
+  .weather-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .weather-card {
+    max-width: 98%;
+  }
+  .navbar-collapse{
+    position: absolute;
+    left: -98px;
+    top: 29px;
+
+  }
+  .navbar-collapse ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer input{
+    margin-bottom: 20px;
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  .flex{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .search-box{
+    padding: 10px;
+    border-radius: 50px;
+  }
+  .search-box input {
+    padding: 15px 0px;
+  }
+  .search-box button{
+    margin-left: 5px;
+  }
+  .str{
+    display: flex;
+    font-size: 14px;
+  }
+}
+/* contact */
+.bg-top {
+  background-color: #2d303d;
+}
+.contact-info,
+.contact-form {
+  background-color: #2d303d;
+  padding: 30px;
+  border-radius: 10px;
+}
+.form-control {
+  background-color: white;
+  border: 2px solid #d5d1d1;
+  color: #fff;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #00bcd4;
+}
+.submit-btn {
+  background-color: #6e7373;
+  color: #fff;
+  border: none;
+}
+.submit-btn:hover {
+  background-color: #008ba3;
+}
+.breadcrumb-item.active {
+  color: #fff;
+}
+.breadcrumb-item a {
+  color: #aaa;
+}
